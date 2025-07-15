@@ -210,3 +210,8 @@ output/
 *.html
 *.png
 *.csv  
+
+
+-# macOS
+#  macOS specific template is maintained in a separate macOS.gitignore that can be found
+.DS_Store
