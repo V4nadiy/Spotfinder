@@ -1,0 +1,16 @@
+# Telegram-бот
+python-telegram-bot==20.6
+
+# Работа с PostgreSQL
+psycopg2-binary>=2.9.9
+
+# Геометрия и координаты
+shapely>=2.0.0
+folium>=0.14.0
+overpy>=0.6.0
+
+# Работа с переменными среды
+python-dotenv>=1.0.1
+
+# Для типизации, если нужно
+typing-extensions>=4.10.0
