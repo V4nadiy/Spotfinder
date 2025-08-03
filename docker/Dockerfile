@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
 
 # Рабочая директория внутри контейнера
 WORKDIR /app
+ENV PYTHONPATH=/app
 
 # Копируем зависимости и устанавливаем их
 COPY requirements.txt .
