@@ -211,6 +211,28 @@ output/
 *.png
 *.csv  
 
+# Logs
+logs/
+airflow/logs/
+
+# Docker volumes
+pgdata/
+*.pid
+
+# Airflow SQLite (вдруг запускали локально)
+airflow/airflow.db
+airflow/webserver_config.py
+
+# HTML карты (если сохраняются в проект)
+*.html
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+
+# Git
+*.swp
+*.bak
+*.tmp
 
 -# macOS
 #  macOS specific template is maintained in a separate macOS.gitignore that can be found
